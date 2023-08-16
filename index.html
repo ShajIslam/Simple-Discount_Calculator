@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicount - Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    ::placeholder{
+        font-size: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <main class="w-[1250px] ml-[450px] mt-24">
+        <div class="card w-96 bg-lime-300 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="shoe.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div id="body-container" class="card-body items-center text-center">
+              <h2 class="card-title">Price: <span id="product-price">1000</span>/- Tk</h2>
+              <p>Coupon Code:</p>
+              <input id="coupon-field" class="rounded-full p-1" type="text" placeholder="enter your coupon code here">
+              <div class="card-actions">
+                <button id="apply-btn" class="btn btn-ghost rounded-full">Apply</button>
+                
+              </div>
+            </div>
+          </div>
+    </main>
+    
+
+
+
+    <script src="js/discount.js"></script>
+</body>
+</html>
